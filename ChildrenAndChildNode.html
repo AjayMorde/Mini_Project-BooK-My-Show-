@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+         .main-part{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding-top: 5rem;
+        } 
+        .movies {
+            height: 10rem;
+            width: 10rem;
+            margin: 2rem;
+        }
+        .price{
+            background-color: rgb(247 84 33);
+            height: 8rem;
+            padding: 1.5rem;
+            font-size: 2rem;
+        }
+        .heading{
+            background-color: rgba(0,0,0,0.856);
+            height: 2rem;
+        }
+        .heading,
+        .price{
+            color: white;
+            text-align: center;
+            margin: 0;
+        }
+      .sel{
+        display: flex;
+        justify-content: center;
+      
+        
+
+      }
+     .select-1{
+        position: relative;
+        left: 30px;
+        top: 12px;
+      }
+        
+    </style>
+</head>
+<body><center>
+ <div class="sel">
+           <div>
+                <h1 class="heading">BOOK MY SHOW <br> </h1>
+            </div>
+     <div>
+      <select class="select-1">
+        <option value="none">None</option>
+        <option value="action">Action</option>
+        <option value="Biopic">Biopic</option>
+        <option value="Romance">Romace</option>
+        <option value="Comedy">Comedy</option>
+        <option value="Horror">Horror</option>
+        <option value="Documentry">Documentry</option>
+        <option value="Drama">Drama</option>
+        <option value="Hottest">Hot</option>
+        
+
+      </select>
+    </div>
+  </div>
+  </center>
+  <div class="main-part">
+    <div class="movies">
+        <h3 class="heading">Bullet Train </h3>
+        <p class="price hello" data-category="action">Rs.100</p>
+    </div>
+    <div class="movies">
+        <h3 class="heading"> Ek-villain return </h3>
+        <p class="price" data-category="action">Rs.200</p>
+    </div>
+    <div class="movies">
+        <h3 class="heading"> Major</h3>
+        <p class="price" data-category="action">Rs.150</p>
+    </div>
+    <div class="movies">
+        <h3 class="heading"> Heropanti-2</h3>
+        <p class="price" data-category="action">Rs.200</p>
+    </div>
+    <div class="movies">
+        <h3 class="heading"> Rasheshym </h3>
+        <p class="price" data-category="Romance">Rs.150</p>
+    </div>
+    <div class="movies">
+        <h3 class="heading"> Love-Hostel</h3>
+        <p class="price" data-category="Romance">Rs.200</p>
+    </div>
+    <div class="movies">
+        <h3 class="heading"> GodFather </h3>
+        <p class="price" data-category="action">Rs.100</p>
+    </div>
+    <div class="movies">
+        <h3 class="heading"> Gehraiyaan</h3>
+        <p class="price" data-category="Romance">Rs.100</p>
+    </div>
+    <div class="movies">
+        <h3 class="heading"> Nikamma </h3>
+        <p class="price" data-category="Romance">Rs.200</p>
+    </div>
+    <div class="movies">
+        <h3 class="heading"> Liger </h3>
+        <p class="price" data-category="action">Rs.100</p>
+    </div>
+    <div class="movies">
+        <h3 class="heading">Samarat Prithviraj  </h3>
+        <p class="price" data-category="Biopic">Rs.100</p>
+    </div>
+    <div class="movies">
+        <h3 class="heading">Father Stu</h3>
+        <p class="price" data-category="Biopic">Rs.200</p>
+    </div>
+    <div class="movies">
+        <h3 class="heading"> Jugjugjiyo </h3>
+        <p class="price" data-category="Comedy">Rs.150</p>
+    </div>
+    <div class="movies">
+        <h3 class="heading"> Lalsingh Chada </h3>
+        <p class="price" data-category="Comedy">Rs.200</p>
+    </div>
+    <div class="movies">
+        <h3 class="heading">Shiddht  </h3>
+        <p class="price" data-category="Romance">Rs.150</p>
+    </div>
+    <div class="movies">
+        <h3 class="heading"> Jersey </h3>
+        <p class="price" data-category="Biopic">Rs.200</p>
+    </div>
+    <div class="movies">
+        <h3 class="heading"> Don't Warry Darling</h3>
+        <p class="price" data-category="Horror">Rs.100</p>
+    </div>
+    <div class="movies">
+        <h3 class="heading"> Jaula </h3>
+        <p class="price" data-category="Horror">Rs.100</p>
+    </div>
+    <div class="movies">
+        <h3 class="heading"> Kantara </h3>
+        <p class="price" data-category="Horror">Rs.200</p>
+    </div>
+    <div class="movies">
+        <h3 class="heading"> Money Mafiya</h3>
+        <p class="price" data-category="Documentry">Rs.100</p>
+    </div>
+    <div class="movies">
+        <h3 class="heading"> Orbital </h3>
+        <p class="price" data-category="Documentry">Rs.100</p>
+    </div>
+  
+  <div class="movies">
+    <h3 class="heading"> Jalsa</h3>
+    <p class="price" data-category="Drama">Rs.200</p>
+</div>
+<div class="movies">
+    <h3 class="heading"> No-Exit</h3>
+    <p class="price" data-category="Drama">Rs.100</p>
+</div>
+<div class="movies">
+    <h3 class="heading"> Hate-Story-5 </h3>
+    <p class="price" data-category="Hottest">Rs.100</p>
+</div>
+<div class="movies"> 
+    <h3 class="heading"> Grand-Masti</h3>
+    <p class="price" data-category="Hottest">Rs.200</p>
+</div>
+<div class="movies">
+    <h3 class="heading"> jism</h3>
+    <p class="price" data-category="Hottest">Rs.100</p>
+</div>
+<div class="movies">
+    <h3 class="heading"> Bramashtra</h3>
+    <p class="price" data-category="Drama">Rs.100</p>
+</div>
+<div class="movies">
+    <h3 class="heading"> Janhat Main jari</h3>
+    <p class="price" data-category="Drama">Rs.100</p>
+</div>
+</div>
+
+
+
+
+
+   
+  
+    
+    
+   <script>
+    let select =document.querySelector("select")
+    let allMovies=document.querySelectorAll(".movies")
+    select.addEventListener("change",(e)=>{
+        let selectValue=select.value;
+        if(selectValue==="none"){
+            // display all
+            allMovies.forEach((movie)=>{
+                movie.style.display="block";
+            })
+        }
+        else{
+            //filter
+            for(let i=0;i<allMovies.length;i++){
+               let pElem=allMovies[i].querySelector("p");
+               let movieValue=pElem.getAttribute("data-category");
+               if(selectValue===movieValue)allMovies[i].style.display="block";
+               else  allMovies[i].style.display="none";
+            }
+        }
+
+
+
+    })
+   </script>
+</body>
+</html>
